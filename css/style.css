@@ -1,5 +1,5 @@
 /********************
-Genral 
+General 
 **********************/
 
 h1 {
@@ -83,6 +83,15 @@ Border Box Games
   color: black;
 /*  box-sizing: content-box;*/
   /*Content-box is the defoult option and it confuses becouse all prperties go to the content box*/
-  
 }
 
+/*Example for margin collapse*/
+
+.boxi {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 15px;
+  border: 10px solid red;
+  display: inline;
+}
